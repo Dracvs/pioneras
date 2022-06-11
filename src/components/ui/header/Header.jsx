@@ -1,16 +1,15 @@
 // @vendors
-import { useEffect } from 'react'
+import { useEffect } from "react";
 
 // @firebase
-import { app } from 'src/services/firestore'
 
 export const Header = () => {
-    //const storageRef = app.storage().ref()
+  //const storageRef = app.storage().ref()
 
-    return (
-        <section className="header">
-            {/* <img src="" /> */}
-            Hello World
-        </section>
-    )
-}
+  return (
+    <section className="header">
+      <img src="https://firebasestorage.googleapis.com/v0/b/landing-page-52729.appspot.com/o/assets%2Flogo_pioneras.png?alt=media&token=f683d663-ddc4-4a39-84d6-2aab73c8ddd2" />
+      Hello World
+    </section>
+  );
+};
