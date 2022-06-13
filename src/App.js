@@ -1,6 +1,3 @@
-// @styles
-import './styles/App.scss'
-
 // @componets
 import { Header } from './components/ui/header'
 
