@@ -1,0 +1,15 @@
+.section {
+    background: #e5e5e5 !important;
+    margin: 0;
+    max-width: 100vw;
+    padding: 5.75rem;
+    width: 100%;
+
+    .section:first-child {
+        margin-left: 0;
+    }
+
+    .section:last-child {
+        margin-right: 0;
+    }
+}

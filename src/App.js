@@ -1,6 +1,6 @@
 // @componets
 import { Header } from './components/ui/header'
-import { InfoColumns } from "./components/infoColumns";
+import { InfoColumns } from './components/info-columns'
 import { Contact } from './services/Contacts'
 
 // @vendors
@@ -12,6 +12,7 @@ function App() {
             <Header />
             <InfoColumns/>
             <Contact />
+
         </div>
     )
 }
