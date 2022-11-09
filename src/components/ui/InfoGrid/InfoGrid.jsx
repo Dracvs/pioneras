@@ -1,6 +1,8 @@
 // @vendors
-
 import { Card, Col } from 'react-bootstrap'
+
+// @styles
+import './grid.sass'
 
 export const InfoGrid = ({ icon, text }) => {
     console.log(typeof text, text)

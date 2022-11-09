@@ -1,18 +1,12 @@
 // @componets
 import { Header } from './components/ui/header'
-import { InfoColumns } from './components/info-columns'
-import { Contact } from './services/Contacts'
-
-// @vendors
-import { useEffect, useState } from 'react'
+import { InfoColumns } from './components/infoColumns'
 
 function App() {
     return (
         <div className="App">
             <Header />
-            <InfoColumns/>
-            <Contact />
-
+            <InfoColumns />
         </div>
     )
 }
