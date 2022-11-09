@@ -2,7 +2,7 @@
 
 import { Card, Col } from 'react-bootstrap'
 
-export const Grid = ({ icon, text }) => {
+export const InfoGrid = ({ icon, text }) => {
     console.log(typeof text, text)
     return (
         <Col className="box mx-4">

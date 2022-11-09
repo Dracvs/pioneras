@@ -3,7 +3,7 @@ import React from 'react'
 import { Container, Row } from 'react-bootstrap'
 
 // @components
-import { Grid } from '../ui/grid/Grid'
+import { InfoGrid } from '../ui/InfoGrid'
 
 // @static
 import data from '../../data/dataColumnsInfo.json'
@@ -14,7 +14,7 @@ export const InfoColumns = () => {
         <Container className="section ">
             <Row>
                 {data.gridData.map((item, index) => (
-                    <Grid icon={item.url} key={index} text={item.text} />
+                    <InfoGrid icon={item.url} key={index} text={item.text} />
                 ))}
             </Row>
         </Container>
