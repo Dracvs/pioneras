@@ -8,7 +8,7 @@ export const Form = () => {
         <Container>
             <Widget
                 id="N9nc6ZRH"
-                style={{ height: '500px', width: '100%' }}
+                style={{ height: '470px', width: '100%' }}
                 className="form-widget"
             />
         </Container>
