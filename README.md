@@ -1,3 +1,11 @@
 # PIONERAS DEVELOPERS LANDING PAGE
 
-## Welcome!
+# Getting started
+## Install Packages
+```
+$ yarn
+```
+## Run Project
+```
+$ yarn start
+```

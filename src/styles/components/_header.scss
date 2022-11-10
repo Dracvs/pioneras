@@ -1,11 +1,10 @@
 .header-text {
-    color: #ffffff;
-    font-family: 'Comfortaa', cursive;
+    color: #f5f5f5;
     font-style: normal;
     font-weight: 400;
-    font-size: 30px;
+    font-size: 24px;
     line-height: 37px;
-    text-justify: center;
+    margin-bottom: 35px;
 }
 
 .wave-container {
@@ -18,12 +17,13 @@
         ),
         #4b0634;
     flex-direction: column;
-    height: fit-content;
+    height: 100vh;
     justify-content: center;
-    padding: 5% 32%;
+    padding: 5% 32% 8%;
     position: relative;
 
     .logo {
+        margin-bottom: 43px;
         width: 226px;
     }
 }
