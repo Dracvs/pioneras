@@ -32,5 +32,7 @@
             "last 1 safari version"
         ]
     },
-    "devDependencies": {}
+    "devDependencies": {
+        "@typeform/embed-react": "^2.1.0"
+    }
 }
