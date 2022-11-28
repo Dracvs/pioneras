@@ -2,6 +2,7 @@
     "name": "pioneras-landing-page",
     "version": "0.1.0",
     "private": true,
+    "homepage": "https://pioneras.github.io/pionerasdev.github.io",
     "dependencies": {
         "@testing-library/jest-dom": "^5.16.4",
         "@testing-library/react": "^13.3.0",
@@ -18,7 +19,9 @@
         "start": "react-scripts start",
         "build": "react-scripts build",
         "test": "react-scripts test",
-        "eject": "react-scripts eject"
+        "eject": "react-scripts eject",
+        "predeploy": "yarn build",
+        "deploy": "gh-pages -d build"
     },
     "browserslist": {
         "production": [
@@ -33,6 +36,7 @@
         ]
     },
     "devDependencies": {
-        "@typeform/embed-react": "^2.1.0"
+        "@typeform/embed-react": "^2.1.0",
+        "gh-pages": "^4.0.0"
     }
 }
