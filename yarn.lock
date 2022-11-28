@@ -6122,6 +6122,7 @@
   dependencies:
     "universalify" "^2.0.0"
   optionalDependencies:
+
     "graceful-fs" "^4.1.6"
 
 "jsonpointer@^5.0.0":
