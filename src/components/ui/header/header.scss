@@ -44,20 +44,14 @@
 // MEDIA QUERIES
 
 @media screen and (min-device-width: 641px) and (max-device-width: 1024px) {
-    .header-text {
-        font-size: 18px;
-    }
-}
-
-@media screen and (max-device-width: 480px) and (orientation: portrait) {
-    .header-text {
-        font-size: 17px;
+    .wave-container {
+        padding: 0% 23% 0%;
     }
 }
 
 @media screen and (max-device-width: 640px) {
-    .header-text {
-        font-size: 15px;
+    .wave-container {
+        padding: 0% 15% 0%;
     }
 }
 
