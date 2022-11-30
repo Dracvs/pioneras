@@ -5,13 +5,11 @@
     justify-content: center
     box-sizing: border-box
 
-
-.socialMediaContainer 
+.socialMediaContainer
     padding-top: 75px
     padding-bottom: 30px
     width: 360px
     align-items: center
-
 
 .footerSection
     h3
@@ -26,6 +24,23 @@
 .socialIcon
     padding: 30%
 
-.wave 
+.wave
     margin-top: -42px
     position: relative
+
+// MEDIA QUERIES
+
+@media screen and (min-device-width: 641px) and (max-device-width: 1024px)
+    .footerSection
+        .sectionTitle
+            font-size: 27px
+
+@media screen and (max-device-width: 480px) and (orientation: portrait)
+    .footerSection
+        .sectionTitle
+            font-size: 25px
+
+@media screen and (max-device-width: 640px)
+    .footerSection
+        .sectionTitle
+            font-size: 23px
