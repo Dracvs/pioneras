@@ -10,3 +10,39 @@
 
     &:last-child
         margin-right: 0
+
+// MEDIA QUERIES
+
+@media screen and (min-device-width: 641px) and (max-device-width: 1024px)
+    .grid-text
+        font-size: 16px
+
+@media screen and (min-device-width: 635px) and (max-device-width: 831px)
+    .grid-text
+        font-size: 16px
+    .row
+        .box
+            &:last-child
+                margin: 90px 25px 25px 25px
+
+@media screen and (max-device-width: 480px) and (orientation: portrait)
+    .grid-text
+        font-size: 15px
+
+@media screen and (min-device-width: 608px) and (max-device-width: 634px)
+    .grid-text
+        font-size: 15px
+
+    .row
+        .box
+            &:last-child
+                margin: 90px 25px 25px 25px
+
+@media screen and (max-device-width: 607px)
+    .grid-text
+        font-size: 14px
+
+    .row
+        .box
+            &:nth-child(2)
+                margin: 90px 25px 90px 25px
